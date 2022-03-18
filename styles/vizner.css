@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+}
+
+input{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 22px;
+}
+
+.title--container{
+    margin-bottom: 100px;
+}
+
+.vizner-conditions--container{
+   float: left;
+   padding: 10px;
+   width: 20%;
+}
+
+.vizner-inp--container{
+    margin-bottom: 20px;
+}
+
+.vizner-keyWord--container{
+    margin-bottom: 20px;
+}
+
+.vizner-result--container{
+    float: right;
+    width: 80%;
+    height: 500px;
+}
+
+.vizner-beginingText--container{
+    float:left;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.vizner-resultText--container{
+    float:right;
+    width: 50%;
+    height: 100%;
+}

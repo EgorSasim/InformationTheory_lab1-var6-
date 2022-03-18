@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1 TI col method</title>
+    <link rel="stylesheet" href="../styles/decimation.css">
+</head>
+<body>
+    
+    <div class="title--container">
+        <h1>Децимации</h1>
+    </div>
+
+    <div class="decimation--container">
+        
+        <div                
+            class="decimation-conditions--container">
+            
+            <div class="decimation-inp--container">
+                <input type="file" onchange="readFile(this)">
+            </div>
+            
+            <div class="decimation-keyWord--container">
+                <span>Ключ: </span><input type="number" id="key">
+            </div>
+            
+            <div class="decimation-submit--container"><button type="submit" onclick="ciphering()">Submit</button>
+            </div>
+
+            <div class="reset"><button onclick="clearAll()">Reset</button></div>
+            
+        </div>
+
+        <div class="decimation-result--container">
+            
+            <div class="decimation-beginingText--container">
+                <span>Исходный текст</span>
+                <button id="chModBtn" onclick="changeMod()">Наоборот</button>
+                <textarea name="" id="baseText" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="decimation-resultText--container">
+                <span>Шифрованный текст</span>
+                <textarea name="" id="cipherText" cols="30" rows="10"></textarea>
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="../scripts/decimation.js"></script>
+</body>
+</html>

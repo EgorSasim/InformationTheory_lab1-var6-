@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffdde1 ;
+}
+
+input{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 22px;
+}
+
+.title--container{
+    margin-bottom: 100px;
+}
+
+.decimation-conditions--container{
+   float: left;
+   padding: 10px;
+   width: 20%;
+}
+
+.decimation-inp--container{
+    margin-bottom: 20px;
+}
+
+.decimation-keyWord--container{
+    margin-bottom: 20px;
+}
+
+.decimation-result--container{
+    float: right;
+    width: 80%;
+    height: 500px;
+}
+
+.decimation-beginingText--container{
+    float:left;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.decimation-resultText--container{
+    float:right;
+    width: 50%;
+    height: 100%;
+}

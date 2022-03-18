@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.title--container{
+    margin-bottom: 50px;
+}
+
+.col-method--container{
+    display: inline-block;
+    
+    margin-left: 20%;
+    
+}
+
+.vizner-method--container{
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.decimation-method--container{
+    display: inline-block;
+    margin-left: 20%;
+}

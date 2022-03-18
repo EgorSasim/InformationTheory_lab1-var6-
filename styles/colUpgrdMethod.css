@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+input{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 22px;
+}
+
+.title--container{
+    margin-bottom: 100px;
+}
+
+.impr-col-method-conditions--container{
+   float: left;
+   padding: 10px;
+   width: 20%;
+}
+
+.impr-col-method-inp--container{
+    margin-bottom: 20px;
+}
+
+.impr-col-method-keyWord--container{
+    margin-bottom: 20px;
+}
+
+.impr-col-method-result--container{
+    float: right;
+    width: 80%;
+    height: 500px;
+}
+
+.mpr-col-method-beginingText--container{
+    float:left;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.mpr-col-method-resultText--container{
+    float:right;
+    width: 50%;
+    height: 100%;
+}
